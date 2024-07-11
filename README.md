@@ -1,5 +1,9 @@
 # AutoAWQ Kernels
 
+win10系统上不用wsl2的方法：
+- 配置好对应torch等环境
+- git clone
+
 AutoAWQ Kernels is a new package that is split up from the [main repository](https://github.com/casper-hansen/AutoAWQ) in order to avoid compilation times.
 
 ## Requirements
