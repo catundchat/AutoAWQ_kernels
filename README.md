@@ -4,7 +4,7 @@ win10系统上不用wsl2的方法：
 - 配置好对应torch等环境，我的win10系统上为
 torch==2.0.1+cu118
 torchaudio==2.0.2+cu118
-torchvision==0.15.2+cu118)
+torchvision==0.15.2+cu118
 - `git clone https://github.com/catundchat/AutoAWQ_kernels.git`
 - 
 
