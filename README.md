@@ -5,8 +5,8 @@ win10系统上不用wsl2的方法：
 torch==2.0.1+cu118
 torchaudio==2.0.2+cu118
 torchvision==0.15.2+cu118
-- `git clone https://github.com/catundchat/AutoAWQ_kernels.git`
-- 
+- `git clone https://github.com/catundchat/AutoAWQ_kernels.git`下载
+- `git install -e .`即可安装autoawq_kernels实现推理加速效果
 
 AutoAWQ Kernels is a new package that is split up from the [main repository](https://github.com/casper-hansen/AutoAWQ) in order to avoid compilation times.
 
