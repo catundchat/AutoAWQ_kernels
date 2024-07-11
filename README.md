@@ -8,6 +8,10 @@ torchvision==0.15.2+cu118
 - `git clone https://github.com/catundchat/AutoAWQ_kernels.git`下载
 - `git install -e .`即可安装autoawq_kernels实现推理加速效果
 
+安装完后`pip list`能看到`autoawq==0.2.4
+-e git+https://github.com/casper-hansen/AutoAWQ_kernels@83d1f4b326a9067d0f94f089ef1bb47cf5377134#egg=autoawq_kernels
+`即为成功
+
 AutoAWQ Kernels is a new package that is split up from the [main repository](https://github.com/casper-hansen/AutoAWQ) in order to avoid compilation times.
 
 ## Requirements
